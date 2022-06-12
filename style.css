@@ -7,9 +7,6 @@
     box-sizing: border-box;
 }
 
-body{
-}
-
 .main-body .navigation{
     color: white;
     background-color: rgb(8, 104, 149);
@@ -93,6 +90,16 @@ body{
 /* --------------------------------------------------------------------------------------- */
 
 @media (max-width:720px) {
+
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu{
+        margin-top: 20px;
+    }
+
     .navigation, ul{
         /* justify-content: flex-start; */
         align-items: flex-start;
