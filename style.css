@@ -1,16 +1,19 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{  
+    font-family: 'Ubuntu', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body{
-    background-color: aqua;
 }
 
 .main-body .navigation{
+    color: white;
+    background-color: rgb(20, 153, 153);
     height: 70px;
-    border: 2px solid black;
 }
 
 .navigation{
@@ -20,19 +23,25 @@ body{
 }
 
 .navigation ul{
-    padding: 15px;
-    border: 2px solid red;
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .navigation ul li{
-    border: red solid 2px;
-    margin: 0px 20px;
+    padding: 8px;
 }
 
 .navigation ul li a{
-    padding: 10px;
-    border: 2px solid rgb(3, 93, 83);
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+
+.navigation ul li a:hover{
+    border-bottom: #ff3838 2px solid;
 }
