@@ -13,18 +13,21 @@ body{
 .main-body .navigation{
     color: white;
     background-color: rgb(20, 153, 153);
-    height: 70px;
+    padding: 15px;
 }
 
 .navigation{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .navigation ul{
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     /* justify-content: space-around; */
 }
 
@@ -44,4 +47,54 @@ body{
 
 .navigation ul li a:hover{
     border-bottom: #ff3838 2px solid;
+}
+
+.section-1{
+    background-image:url('https://bpac.in/wp-content/uploads/2020/07/BPAC_Main.png');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position-x: center;
+    background-blend-mode: saturation;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-1 .heading{
+    transition: all 0.5s;
+    padding: 20px;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.section-1 .btn{
+    margin-top: 30px;
+}
+
+.btn button{
+    padding: 10px 20px;
+    margin: auto 10px;
+    background-color: #4179a3;
+    border: 2px solid white;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn button:hover, button:last-child{
+    background-color: transparent;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+@media (max-width:720px) {
+    .navigation, ul{
+        /* justify-content: flex-start; */
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
