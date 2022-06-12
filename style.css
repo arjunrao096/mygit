@@ -12,7 +12,7 @@ body{
 
 .main-body .navigation{
     color: white;
-    background-color: rgb(20, 153, 153);
+    background-color: rgb(8, 104, 149);
     padding: 15px;
 }
 
@@ -41,7 +41,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     padding: 8px;
-    font-size: 20px;
+    font-size: 17px;
     transition: all 0.2s;
 }
 
@@ -78,15 +78,16 @@ body{
 .btn button{
     padding: 10px 20px;
     margin: auto 10px;
-    background-color: #4179a3;
-    border: 2px solid white;
+    background-color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
     font-size: 17px;
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .btn button:hover, button:last-child{
     background-color: transparent;
+    color : white;
 }
 
 /* --------------------------------------------------------------------------------------- */
