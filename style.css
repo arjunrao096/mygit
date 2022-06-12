@@ -46,8 +46,12 @@
     border-bottom: #ff3838 2px solid;
 }
 
-.section-1{
+#sec1{
     background-image:url('https://bpac.in/wp-content/uploads/2020/07/BPAC_Main.png');
+}
+
+.section{
+    
     background-color: rgba(0, 0, 0, 0.5);
     background-position-x: center;
     background-blend-mode: saturation;
@@ -59,7 +63,7 @@
 
 }
 
-.section-1 .heading{
+.section .heading, .quote{
     transition: all 0.5s;
     padding: 20px;
     font-size: 35px;
@@ -68,7 +72,7 @@
     text-transform: capitalize;
 }
 
-.section-1 .btn{
+.section .btn{
     margin-top: 30px;
 }
 
@@ -94,6 +98,8 @@
     .logo{
         width: 100%;
         text-align: center;
+        border-bottom: #ffffff 2px solid;
+        padding: 10px;
     }
 
     .menu{
